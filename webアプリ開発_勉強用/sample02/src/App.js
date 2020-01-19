@@ -42,7 +42,6 @@ function App() {
 
 class Clock extends React.Component {
 
-
   constructor(props) {
     super(props);
 
