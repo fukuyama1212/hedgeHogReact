@@ -2,6 +2,8 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route, Link } from 'react-router-dom'
 import { createStore } from 'redux'
 
+// npm i -S react-router-domにてダウンロード
+
 const App = () => (
   <BrowserRouter>
     <div className="container text-center mt-5 bg-dark text-white">

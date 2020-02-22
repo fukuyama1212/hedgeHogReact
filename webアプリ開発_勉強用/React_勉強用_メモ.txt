@@ -5,5 +5,17 @@ npx
 　nodeの実行マネージャー
 
 
+2/10
+https://original-game.com/how-to-use-webpack-dev-server/#m_heading-0
 
+npm install webpack-dev-server
+上記でwebpackでの開発サーバーを立ち上げることができるもの、をインストール
+
+
+
+npm install --save-dev webpack-dev-server@3.10.1
+
+
+プロジェクト立ち上げ
+npx create-react-app sample07
 

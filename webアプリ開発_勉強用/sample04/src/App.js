@@ -1,6 +1,7 @@
 import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+//import { BrowserRouter, Route, Link } from 'react-router-dom'
 import { FunctionComponent, useEffect, useState } from 'react'
 import { interval } from 'rxjs'
 
@@ -23,6 +24,7 @@ import { interval } from 'rxjs'
 // https://reactapp.dev/posts/create-react-app-time
 // FunctionComponentについて　https://qiita.com/daikoncl/items/a3806d8a8bf35f086487
 const App: FunctionComponent = () => {
+
   const [date, setDate] = useState(new Date())
 
   interval(1000).subscribe(() => {setDate(new Date())})
@@ -39,10 +41,12 @@ const App: FunctionComponent = () => {
   return (
     <div className="App">
     <header className="App-header">
+    <p>HedgeHog React Project</p>
       <img src={logo} className="App-logo" alt="logo" />
       <p>{`${date.getHours()} : ${date.getMinutes()} : ${date.getSeconds()}`}</p>    </header>
   </div>
   )
 }
+
 
 export default App;
