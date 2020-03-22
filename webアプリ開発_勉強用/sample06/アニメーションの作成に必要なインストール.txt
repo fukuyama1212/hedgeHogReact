@@ -1,0 +1,7 @@
+
+¡
+npm install react-transition-group
+
+Ql: https://github.com/reactjs/react-transition-group/issues/36
+
+
