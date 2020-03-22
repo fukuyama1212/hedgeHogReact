@@ -12,7 +12,7 @@ sample03
 
 
 sample04
-
+　同期通信で時計を表示
 
 sample05
 

@@ -19,3 +19,18 @@ npm install --save-dev webpack-dev-server@3.10.1
 プロジェクト立ち上げ
 npx create-react-app sample07
 
+
+
+2/22 ecripse gradle ダウンロード
+
+①原口氏のメモ参照
+https://github.com/Takabow0705/web-app/blob/topic/tutorial/docs/gradle.md
+
+②JAVA_HOME登録されていない問題
+
+JAVA_HOME
+C:\pleiades\java\11
+⇒環境変数に追加することによって解消
+⇒https://qiita.com/chenglin/items/9d33b6f3492407ed03d2
+
+
