@@ -1,4 +1,26 @@
-.fade-enter {
+.Home {
+  background: linear-gradient(#05FBFF, rgb(4, 0, 255));
+  /* background-color: linear-gradient(#05FBFF, #1E00FF);; */
+  min-height: 150vh;
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin); */
+  color: white;
+  padding: 40px 0;
+}
+
+.Home-header {
+  background-color: #FFFFFF;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 40px;
+}
+
+/* .fade-enter {
   opacity: 0;
   transform: translateX(150px);
 }
@@ -19,3 +41,18 @@
   opacity: 0;
   transform: translateX(150px);
 }
+
+.tabs li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.tabs li.active {
+  text-decoration: underline;
+}
+
+.contents {
+  border: 1px solid;
+  height: 300px;
+} */
