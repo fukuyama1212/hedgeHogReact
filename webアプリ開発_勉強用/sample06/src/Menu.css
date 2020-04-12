@@ -1,5 +1,10 @@
-.Home {
-  background: linear-gradient(#05FBFF, rgb(4, 0, 255));
+.Menu {
+  /* background: linear-gradient(#05FBFF, rgb(4, 0, 255)); */
+  
+  background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8)) fixed,
+  url(http://www.webcreatorbox.com/sample/images/bg-cherrybrossam.jpg) fixed;
+  background-size: cover;
+  
   /* background-color: linear-gradient(#05FBFF, #1E00FF);; */
   min-height: 150vh;
   /* display: flex; */
@@ -11,7 +16,7 @@
   padding: 40px 0;
 }
 
-.Home-header {
+.Menu-header {
   background-color: #FFFFFF;
   position: fixed;
   top: 0px;

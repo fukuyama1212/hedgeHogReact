@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-import Home from './Home.js';
+import Menu from './Menu.js';
 import React from 'react'
 import { BrowserRouter, Route, Switch, Redirect, Link  } from 'react-router-dom'
 import axios from 'axios'
@@ -344,7 +344,7 @@ const App = () => (
   <BrowserRouter>
     <div>
       <Route exact path="/" component={Login}/>
-      <Route path="/home" component={Home} />
+      <Route path="/home" component={Menu} />
     </div>
   </BrowserRouter>
 
