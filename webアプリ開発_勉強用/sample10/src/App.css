@@ -45,12 +45,31 @@
 
 .styleSample1 {
   padding: 3px;
-  border: 5px solid #00d9ff;
+  border: 1px solid #00d9ff;
   width: 200px;
   height: 100px;
   display: inline-block;
   margin : 5px;
+  overflow: hidden;
+
 }
+
+/* -------- */
+.moimg1 {
+  overflow: hidden;
+  width: 350px;
+  height: 240px;
+}
+.moimg1 img {
+  width: 350px;
+  display: block;
+  transition: 0.5s;
+}
+.styleSample1 img:hover {
+  transition: 0.5s;
+  transform: scale(1.3, 1.3);
+}
+/* -------- */
 
 .styleSample2 {
   width: auto;
@@ -104,3 +123,4 @@ p {
   text-align:center;
   margin: auto;
  }
+

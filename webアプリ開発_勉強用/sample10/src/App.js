@@ -42,40 +42,40 @@ export const Sample2 = () => {
 
   return (
     <>
-    {/* <div>
+    <div>
       <div className="background">
-        <div className="styleSample1">
-          <img src={Icon1} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon2} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon3} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon4} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon5} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon1} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon2} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon3} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon4} alt="" className="styleSample2"/>
-        </div>
-        <div className="styleSample1">
-          <img src={Icon5} alt="" className="styleSample2"/>
-        </div>  
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon1} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon2} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon3} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon4} alt="" className="styleSample2"/></div>
+        <div className="styleSample1"><img src={Icon5} alt="" className="styleSample2"/></div>
       </div>
-    </div> */}
+    </div>
       {/* <p>Brilliant Blue</p>
       <div class="video-wrap">
         <p>Brilliant Blue</p>
@@ -83,7 +83,7 @@ export const Sample2 = () => {
           <img src={Icon1} alt="Placeholder"></img>
         </video>
       </div> */}
-    <div>
+    {/* <div>
       <div className="wrap">
 	      <video id="bg-video" src={movie} autoPlay loop></video>
 	      <div className="header-title">
@@ -92,7 +92,7 @@ export const Sample2 = () => {
 		      </p>
 	      </div>
       </div>
-    </div>
+    </div> */}
     </>
   )
 }
