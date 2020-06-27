@@ -1,0 +1,238 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+  background-color: #dae6ff;
+  /* text-align: center; */
+  min-height: 200vh;
+}
+
+.styleSample1 {
+  padding: 3px;
+  border: 2px solid #00d9ff;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin : 5px;
+  overflow: hidden;
+
+}
+
+/* -------- */
+.moimg1 {
+  overflow: hidden;
+  width: 350px;
+  height: 240px;
+}
+.moimg1 img {
+  width: 350px;
+  display: block;
+  transition: 0.5s;
+}
+.styleSample1 img:hover {
+  transition: 0.5s;
+  transform: scale(1.3, 1.3);
+}
+/* -------- */
+
+.styleSample2 {
+  width: auto;
+  height: 100px;
+}
+
+.video-wrap {
+  position: relative;
+  position: relative; /*必ず必要*/
+  z-index: 2; /*必ず必要*/
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: auto;
+}
+
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  /* left: 30%; */
+  /* top: 200px; */
+  z-index: 1;
+}
+
+#bg-video{
+  position: fixed;
+  width: 100%;
+  height: auto;
+  /* right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100; */
+  /* background: url('poster.jpg') no-repeat; */
+  background-size: cover;
+ }
+
+ .header-title{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: auto;
+ }
+
+ .styleSample3 {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.customStyles {
+  position: fixed;
+  text-align: center;
+  background-color: #4d6e72;
+  top: 0%;
+  left: 0%;
+  right: 80%;
+  bottom: 0%;
+  opacity: 0.6;
+}
+
+.test {
+  opacity: 0.7;
+}
+/*=============================
+.btn-trigger
+=============================*/
+.btn-trigger {
+  position: relative;
+  width: 50px;
+  height: 44px;
+  /* cursor: pointer; */
+  /* background-color: #fff;
+  opacity: 0; */
+}
+.btn-trigger span {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 4px;
+  /* background-color: rgb(0, 0, 0); */
+  /* border-radius: 4px; */
+}
+
+.btn-trigger span:nth-of-type(1) {
+  top: 0;
+  background-color: #fff;
+}
+.btn-trigger span:nth-of-type(2) {
+  top: 20px;
+  background-color: #fff;
+}
+.btn-trigger span:nth-of-type(3) {
+  bottom: 0;
+  background-color: #fff;
+}
+
+
+
+/*===============================================
+ここからCSSのみでハンバーガーメニューを実装
+===============================================*/
+.total{
+  margin: 0;
+  display: flex;
+  font-size: 3rem;
+  min-height: 100vh;
+}
+
+.main{
+  /* flex: 1; */
+  width: 100%;
+  /* ハンバーガーメニューにかぶらせないため */
+  padding-top: 100px;
+  background: #fcfcfc;
+}
+.list-menu {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 200px;
+}
+
+.open {
+  display: block;
+  position: absolute;
+}
+
+.close {
+  display: block;
+}
+
+input[type="checkbox"] {
+  position: absolute;
+  left: -50vw;
+}
+
+.aside-menu {
+  position: absolute;
+  height: 100%;
+  transition: all 0.3s;
+  background: #ffffff;
+  left: -200px; 
+}
+
+input[type="checkbox"]:checked ~ aside {
+  left: 0;
+}
+
+input[type="checkbox"]:checked ~ .back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #b6b9b9;
+  opacity:0.6;
+}

@@ -1,0 +1,141 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.background {
+  background-color: #282c34;
+  text-align: center;
+  min-height: 200vh;
+}
+
+.styleSample1 {
+  padding: 3px;
+  border: 2px solid #00d9ff;
+  width: 200px;
+  height: 100px;
+  display: inline-block;
+  margin : 5px;
+  overflow: hidden;
+
+}
+
+/* -------- */
+.moimg1 {
+  overflow: hidden;
+  width: 350px;
+  height: 240px;
+}
+.moimg1 img {
+  width: 350px;
+  display: block;
+  transition: 0.5s;
+}
+.styleSample1 img:hover {
+  transition: 0.5s;
+  transform: scale(1.3, 1.3);
+}
+/* -------- */
+
+.styleSample2 {
+  width: auto;
+  height: 100px;
+}
+
+.video-wrap {
+  position: relative;
+  position: relative; /*必ず必要*/
+  z-index: 2; /*必ず必要*/
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: auto;
+}
+
+p {
+  font-family: serif;          
+  color: #fff;
+  font-size: 400%;
+  position: absolute;
+  /* left: 30%; */
+  /* top: 200px; */
+  z-index: 1;
+}
+
+#bg-video{
+  position: fixed;
+  width: 100%;
+  height: auto;
+  /* right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100; */
+  /* background: url('poster.jpg') no-repeat; */
+  background-size: cover;
+ }
+
+ .header-title{
+  position: relative;
+  z-index: 2;
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+  text-align:center;
+  margin: auto;
+ }
+
+ .styleSample3 {
+  width: 50%;
+  height: auto;
+  text-align: center;
+}
+
+.customStyles {
+  position: fixed;
+  text-align: center;
+  background-color: #ffffff;
+  top: 10%;
+  left: 20%;
+  right: 20%;
+  bottom: 20%;
+}

@@ -36,13 +36,17 @@ class popup1 extends React.Component {
         <div className='app'>
           <h1>HedgeHog React Servise</h1>
           <button onClick={this.togglePopup.bind(this)}>show popup</button>
-          {this.state.showPopup ? 
+          {/* {this.state.showPopup ? 
             <Popup
               text='Close Me'
               closePopup={this.togglePopup.bind(this)}
             />
             : null
-          }
+          } */}
+            <Popup
+              text='Close Me'
+              closePopup={this.togglePopup.bind(this)}
+            />
         </div>
       </>
     );

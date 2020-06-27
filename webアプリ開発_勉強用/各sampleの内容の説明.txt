@@ -3,8 +3,6 @@
 sample01
 
 
-
-
 sample02
 
 
@@ -20,8 +18,6 @@ sample05
 sample06
 　Java Scriptを用いたログイン画面と遷移
 
-
-
 sample07
 　Reactチュートリアルの実装！！
 　
@@ -29,5 +25,18 @@ sample08
 　popup勉強
 　
 sample09
-　popup勉強2
+　popup勉強2⇒sample12を参照
+
+sample10
+　画像リスト表示＆ホーム画面の背景に動画を埋め込む
+
+sample11
+　Modal表示
+
+sample12
+⇒sample09をbpにして詳細を実装
+⇒完成形はこっち
+
+sample13
+ハンバーガーメニューの実装
 
